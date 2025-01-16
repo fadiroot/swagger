@@ -4,11 +4,11 @@
 # IDE
 /.idea
 /.awcache
-/.vscode
 .history
 
 # misc
 npm-debug.log
+temp_auto_push.bat
 .DS_Store
 
 # tests
@@ -19,4 +19,5 @@ npm-debug.log
 dist
 index.js
 index.d.ts
-/sample
+/sample.gitignore
+branch_structure.json
