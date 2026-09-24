@@ -1,10 +1,13 @@
 # dependencies
 node_modules
 
+# The ESM resolver only reads packages from a folder with this name, so the
+# plugin fixtures ship one.
+!/test/plugin/fixtures/esm-packages/node_modules/
+
 # IDE
 /.idea
 /.awcache
-/.vscode
 .history
 
 # misc
@@ -20,3 +23,7 @@ dist
 index.js
 index.d.ts
 /sample
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
