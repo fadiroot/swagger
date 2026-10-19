@@ -27,7 +27,7 @@
     "node": "^20.19.0 || >=22.12.0"
   },
   "scripts": {
-    "build": "node api.js && tsc -p tsconfig.build.json",
+    "build": "tsc -p tsconfig.build.json",
     "format": "prettier \"lib/**/*.ts\" --write",
     "lint": "oxlint lib/",
     "prepublish:next": "npm run build",
@@ -41,7 +41,7 @@
     "prerelease": "npm run build",
     "release": "release-it",
     "---manual-tests---": "",
-    "start": "node api.js && nest start",
+    "start": "nest start",
     "start:dev": "nest start --watch",
     "start:debug": "nest start --watch --debug"
   },
