@@ -8,9 +8,9 @@ node_modules
 # IDE
 /.idea
 /.awcache
+/.vscode
 .history
 
-temp_auto_push.bat
 # misc
 npm-debug.log
 .DS_Store
@@ -24,5 +24,3 @@ dist
 index.js
 index.d.ts
 /sample
-.gitignore
-branch_structure.json
